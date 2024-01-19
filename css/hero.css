@@ -1,0 +1,52 @@
+/* ----------------- hero section ----------------- */ 
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  padding-inline: 1.5rem;
+
+}
+/* @media screen and (min-width: 992px) {
+  .hero {
+    padding-inline: 2.75rem;
+  }
+} */
+
+.main-hero {
+  min-height: calc(100vh - 12rem);
+  background: url(../assets/img/hero-img.webp) center center / cover no-repeat;
+}
+
+.sub-hero {
+  min-height: calc(60vh - 12rem);
+}
+
+.expert-hero {
+  background: url(../assets/img/subpage-header.webp) center center / cover no-repeat;
+}
+
+.services-hero {
+  background: url(../assets/img/subpage-angebote-header-01.webp) center center / cover no-repeat;
+}
+
+.form-hero {
+  background: url(../assets/img/subpage-form-header.webp) center center / cover no-repeat;
+}
+
+.hero .hero-content,
+.sub-hero .sub-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 65rem;
+  text-align: center;
+}
+
+.hero-content p,
+.sub-content p {
+  color: var(--dark-50);
+}
+

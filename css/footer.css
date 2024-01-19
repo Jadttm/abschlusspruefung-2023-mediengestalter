@@ -1,0 +1,35 @@
+/* ------------------- footer ------------------- */
+footer {
+  gap: 1.5rem;
+  margin-inline: 1.25rem;
+  padding-top: 5rem;
+}
+
+footer .bento {
+  padding: 3rem 0 0 0;
+}
+@media screen and (min-width: 992px) {
+  footer .bento {
+    padding: 0;
+  }
+}
+
+footer .footer-wrapper a {
+  color: var(--dark-50)
+}
+
+footer .logo img {
+  max-width: 8rem;
+}
+
+@media screen and (min-width: 992px) {
+  footer .footer-wrapper {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 992px) { 
+  .copy-right {
+    text-align: center;
+  }
+}

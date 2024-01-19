@@ -1,0 +1,62 @@
+/* -------------- forms -------------- */
+form, .text-grp {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1.5rem;
+}
+
+.radio-outer, .radio-wrapper, .form-group {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.5rem;
+}
+
+.form-control {
+  padding: 12px;
+  border-radius: 24px;
+  border: 1px solid var(--Black-950, #161616);
+  background: var(--Black-50, #F6F6F6);
+}
+
+.form-title {
+  font-weight: 700;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 1.5rem;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .radio-outer, .text-grp  {
+    flex-direction: row;
+  }
+
+  .radio-wrapper {
+    width: 40%;
+  }
+
+  .form-group {
+    flex: 1 1 50%;
+  }
+
+  .form-group.flex-90 {
+    flex: 1 1 90%
+  }
+
+  .form-header p {
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+  .form-section {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
